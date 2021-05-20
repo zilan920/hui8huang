@@ -1,6 +1,6 @@
 import React, { useState, useRef  } from 'react';
 
-export default function () {
+export default function LiveOrDead() {
   const [ live, setLive ] = useState(true);
   const [ timeInterval, setTimeInterval ] = useState(1000);
 
