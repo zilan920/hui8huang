@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#game {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#game .button {
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+}
+#game .actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#game .actions .action {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  text-align: center;
 }
